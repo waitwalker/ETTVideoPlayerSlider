@@ -10,13 +10,13 @@ Pod::Spec.new do |s|
 
 s.name        = 'ETTVideoPlayerSlider'
 
-s.version      = '0.1'
+s.version      = '0.2'
 
 s.summary      = 'VideoPlayerSlider with buffer value and play value'
 
 s.homepage    = 'https://github.com/waitwalker/ETTVideoPlayerSlider'
 
-#s.license      = 'MIT'
+s.license      = 'MIT'
 
 s.authors      = {'waitWalker' => 'waitwalker@163.com'}
 
@@ -24,9 +24,8 @@ s.platform    = :ios, '8.0'
 
 s.source      = {:git => 'https://github.com/waitwalker/ETTVideoPlayerSlider.git', :tag => s.version}
 
-s.source_files = 'ETTVideoPlayerSlider/**/*.{h,m}'
+s.source_files = 'ETTVideoPlayerSlider'
 
-s.resource    = 'ETTVideoPlayerSlider/ETTVideoPlayerSlider.bundle'
 
 s.requires_arc = true
 
