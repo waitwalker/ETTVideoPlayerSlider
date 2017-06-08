@@ -23,13 +23,13 @@
 /* 播放最大值 */
 @property (nonatomic, assign) CGFloat maximumValue;
 
-/* slider条背景颜色   默认: */
+/* slider条背景颜色   默认:黑色 */
 @property (nonatomic, strong) UIColor *sliderBackgroundColor;
 
-/* slider条缓冲颜色   默认: */
+/* slider条缓冲颜色   默认:红色 */
 @property (nonatomic, strong) UIColor *sliderTrackColor;
 
-/* slider条播放颜色   默认: */
+/* slider条播放颜色   默认:黄色 */
 @property (nonatomic, strong) UIColor *sliderPlayedColor;
 
 /* slider delegate */
