@@ -16,17 +16,17 @@ s.summary      = 'VideoPlayerSlider with buffer value and play value'
 
 s.homepage    = 'https://github.com/waitwalker/ETTVideoPlayerSlider'
 
-s.license      = 'MIT'
+#s.license      = 'MIT'
 
 s.authors      = {'waitWalker' => 'waitwalker@163.com'}
 
-s.platform    = :ios, '9.0'
+s.platform    = :ios, '8.0'
 
-s.source      = {:git => 'https://github.com/waitwalker/ETTVideoPlayerSlider', :tag => s.version}
+s.source      = {:git => 'https://github.com/waitwalker/ETTVideoPlayerSlider.git', :tag => s.version}
 
 s.source_files = 'ETTVideoPlayerSlider/**/*.{h,m}'
 
-s.resource    = 'ETTVideoPlayerSlider'
+s.resource    = 'ETTVideoPlayerSlider/ETTVideoPlayerSlider.bundle'
 
 s.requires_arc = true
 
