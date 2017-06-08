@@ -29,6 +29,7 @@
 		CAD7DE4C1EE93B8A001A5DE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CAD7DE531EE93BCA001A5DE8 /* ETTVideoPlayerSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETTVideoPlayerSlider.h; sourceTree = "<group>"; };
 		CAD7DE541EE93BCA001A5DE8 /* ETTVideoPlayerSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETTVideoPlayerSlider.m; sourceTree = "<group>"; };
+		CAD7DE561EE93C52001A5DE8 /* ETTVideoPlayerSliderDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETTVideoPlayerSliderDelegate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +89,7 @@
 			children = (
 				CAD7DE531EE93BCA001A5DE8 /* ETTVideoPlayerSlider.h */,
 				CAD7DE541EE93BCA001A5DE8 /* ETTVideoPlayerSlider.m */,
+				CAD7DE561EE93C52001A5DE8 /* ETTVideoPlayerSliderDelegate.h */,
 			);
 			path = ETTVideoPlayerSlider;
 			sourceTree = "<group>";
