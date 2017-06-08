@@ -7,8 +7,33 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ETTVideoPlayerSliderDelegate.h"
 
 @interface ETTVideoPlayerSlider : UIView
+
+/* 播放进度值 */
+@property (nonatomic, assign) CGFloat value;
+
+/* 缓冲进度值 */
+@property (nonatomic, assign) CGFloat trackValue;
+
+/* 播放最小值 */
+@property (nonatomic, assign) CGFloat minimumValue;
+
+/* 播放最大值 */
+@property (nonatomic, assign) CGFloat maximumValue;
+
+/* slider条背景颜色   默认: */
+@property (nonatomic, strong) UIColor *sliderBackgroundColor;
+
+/* slider条缓冲颜色   默认: */
+@property (nonatomic, strong) UIColor *sliderTrackColor;
+
+/* slider条播放颜色   默认: */
+@property (nonatomic, strong) UIColor *sliderPlayedColor;
+
+/* slider delegate */
+@property (nonatomic, weak) id<ETTVideoPlayerSliderDelegate>delegate;
 
 
 @end
