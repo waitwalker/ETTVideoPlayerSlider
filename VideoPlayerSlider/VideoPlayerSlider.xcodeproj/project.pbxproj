@@ -14,7 +14,6 @@
 		CAD7DEA61EE951D2001A5DE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAD7DEA51EE951D2001A5DE8 /* Assets.xcassets */; };
 		CAD7DEA91EE951D2001A5DE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAD7DEA71EE951D2001A5DE8 /* LaunchScreen.storyboard */; };
 		CAD7DEB41EE95211001A5DE8 /* ETTVideoPlayerSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = CAD7DEB21EE95211001A5DE8 /* ETTVideoPlayerSlider.m */; };
-		CAD7DEB61EE9524F001A5DE8 /* ETTVideoPlayerSlider.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CAD7DEB51EE9524F001A5DE8 /* ETTVideoPlayerSlider.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,7 +30,6 @@
 		CAD7DEB11EE95211001A5DE8 /* ETTVideoPlayerSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETTVideoPlayerSlider.h; sourceTree = "<group>"; };
 		CAD7DEB21EE95211001A5DE8 /* ETTVideoPlayerSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETTVideoPlayerSlider.m; sourceTree = "<group>"; };
 		CAD7DEB31EE95211001A5DE8 /* ETTVideoPlayerSliderDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETTVideoPlayerSliderDelegate.h; sourceTree = "<group>"; };
-		CAD7DEB51EE9524F001A5DE8 /* ETTVideoPlayerSlider.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ETTVideoPlayerSlider.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,7 +87,6 @@
 		CAD7DEB01EE951DC001A5DE8 /* ETTVideoPlayerSlider */ = {
 			isa = PBXGroup;
 			children = (
-				CAD7DEB51EE9524F001A5DE8 /* ETTVideoPlayerSlider.bundle */,
 				CAD7DEB11EE95211001A5DE8 /* ETTVideoPlayerSlider.h */,
 				CAD7DEB21EE95211001A5DE8 /* ETTVideoPlayerSlider.m */,
 				CAD7DEB31EE95211001A5DE8 /* ETTVideoPlayerSliderDelegate.h */,
@@ -139,6 +136,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -160,7 +158,6 @@
 				CAD7DEA91EE951D2001A5DE8 /* LaunchScreen.storyboard in Resources */,
 				CAD7DEA61EE951D2001A5DE8 /* Assets.xcassets in Resources */,
 				CAD7DEA41EE951D2001A5DE8 /* Main.storyboard in Resources */,
-				CAD7DEB61EE9524F001A5DE8 /* ETTVideoPlayerSlider.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

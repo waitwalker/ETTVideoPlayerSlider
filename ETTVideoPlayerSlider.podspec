@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 
 s.name        = 'ETTVideoPlayerSlider'
 
-s.version      = '0.2'
+s.version      = '1.0.0'
 
 s.summary      = 'VideoPlayerSlider with buffer value and play value'
 
